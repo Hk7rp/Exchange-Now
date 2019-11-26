@@ -1,0 +1,567 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+.topo{
+	position:absolute;
+	width:100%;
+	z-index:99;
+	padding:10px;
+	border-radius:10px;
+}
+
+.logo-site{
+	display:inline-block;
+	margin-left:50px;
+}
+
+.img-logo img{
+	width:41px;
+	height:48px;
+	float: left;
+	margin-right: 30px;
+}
+
+.menus{
+	margin: 10px 20px 10px 20px;
+}
+
+.menus:hover{
+	border-color:#B5B5B5;
+}
+
+a{
+	font-size:20px;
+	transition-duration:0.8s;
+}
+
+a:hover{
+	font-size:16px;
+}
+
+
+.fundo{
+    max-width: 100%;
+	background-image:url(Tel%C3%A3o%20do%20fund%C3%A3o.png);
+	height:757px;
+	overflow:hidden;
+	
+}
+
+.set-bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+	
+}
+
+.container2{
+	max-height:100%;
+	position:relative;
+	text-align-last:center;
+	
+}
+
+.container2 h2{
+    max-width:500px;
+    min-width: 400px;
+	font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 1;	
+}
+
+.container2 p{
+    max-width:400px;
+    min-width: 300px;
+	font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 40px;
+	
+}
+
+
+.logo2 img{
+	max-height:307px;
+}
+
+.selection-padding{
+	padding:120px 0;
+	max-height:760px;
+}
+
+.gray-bg{
+	background-color:#f2fefe;
+}
+
+.page-title{
+	margin-bottom:60px;
+}
+
+.page-title h2{
+	text-transform: uppercase;
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.page-title p{
+	margin:0 0 10px;
+}
+
+.col-xs-12{
+	background-color:#FFF;
+	position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+	float:left;
+	max-width:19%;
+	transition-duration:0.5s;
+	margin: 5px 5px 0 6px;
+	
+}
+
+.col-xs-12-2{
+	position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+	float:left;
+	width:19%;
+	transition-duration:0.5s;
+	color:#FFF;
+}
+.classHover{
+	max-height:324px;
+}
+.classHover:hover{
+	max-height:350px;
+	margin: 0 5px 0 6px;
+}
+
+.time{
+	
+    border-radius: 5px;
+    color: #515656;
+    text-align: center;
+    position: relative;
+	transition: .3s;
+	
+}
+
+.foto{
+	margin-bottom:20px;
+	padding-top:20px;
+}
+
+.foto img{
+	padding:5px 5px 5px 15px;
+	max-width:170px;
+	transition-duration:0.5s;
+}
+
+.classHover .foto img:hover{
+	max-width:186px;
+	padding: 0 0 0 0;
+}
+
+.single-team h2{
+	font-size:19px;
+}
+
+.footer-area{
+	padding-top:60px;
+	z-index:1;
+	position:relative;	
+}
+
+.footer-top{
+	margin-bottom:150px;
+}
+
+.container3{
+	width:1170px;
+	padding-left:15px;
+	padding-right:15px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+.col-sm-offset-3{
+	margin-left:25%;
+}
+
+address{
+	margin-bottom: 20px;
+    font-style: normal;
+    line-height: 1.42857143;
+}
+
+.side-icon-box{
+	margin-bottom: 20px;
+    font-style: normal;
+    line-height: 1.42857143;
+	padding-left:60px;
+}
+
+.side-icon-box .side-icon {
+    position: absolute;
+    left: 0;
+    width: 60px;
+	
+}
+
+.side-icon img {
+	width:60px;
+	background-color:#FFF;
+	border-radius:20px;
+
+}
+
+.form-double input{
+	width: calc(50% - 10px);
+    float: left;
+}
+
+.form-double input:last-child {
+    float: right;
+}
+
+.botaoForm{
+	display: inline-block;
+    padding: 8px 30px;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #2f60c3;
+    -webkit-transition: .3s;
+    transition: .3s;
+    border: none;
+    -webkit-box-shadow: 2px 5px 20px -5px rgba(0,0,0,.1);
+    box-shadow: 2px 5px 20px -5px rgba(0,0,0,.1);
+
+	
+}
+
+.contact-form .button {
+    letter-spacing: 2px;
+    min-width: 150px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.footer-top{
+	margin-bottom:60px;
+}
+
+.pull-right{
+	float:right;
+}
+
+.social-menu{
+	list-style:none;
+	margin:0;
+	padding:10px;
+}
+
+.social-menu li {
+    display: inline-block;
+    margin: 0 3px;
+}
+
+.social-menu img{
+	width:30px;
+}
+
+
+.ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.pMeio{
+	padding:10px;
+}
+
+.footer-bottom{
+    border-top: 1px solid rgba(255,255,255,.2);
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.text-center{
+	text-align:center;
+	max-width:100%;
+}
+
+.absolute {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.footer-bg {
+    background: url(fundo2.png) no-repeat scroll center bottom/100% auto;
+    z-index: -1;
+}
+
+/* CADASTRO */
+
+.footer-Cadastro{
+	margin:100px 300px 100px 300px;
+	border-radius: 12px;
+	
+	background-color: rgba(255, 255, 255, 0.418);
+}
+
+.titulo{
+	margin-left: 20px;
+	font-size: 40px;	
+}
+
+.cadastro{
+	margin: 30px 150px 50px 150px;
+}
+
+.cadastro input {
+    display: block;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	margin-bottom:5px;
+}
+
+.cadastro tbody{
+	max-width: 800px;
+}
+
+.opcao{
+	padding:5px 5px;
+	color:rgba(255, 255, 255, 0.438);
+	font-size:20px;
+	font-weight:600;
+	float:left;
+	background-image:linear-gradient(45deg,rgba(255, 255, 255, 0.658),rgba(255, 255, 255, 0.658));
+	border:double 6px #2f7dd6b4;
+	box-shadow:6px 6px 3px #2f7dd6b4;
+	transition:0.5s;
+	color:#2f7dd6b4;
+}
+
+.opcao:hover{
+	box-shadow:none;
+	background-image:linear-gradient(45deg, #2f7dd6b4,#2f7dd6b4);
+	border:double 6px #333333;
+	border-radius: 12px;
+	color:white;
+}
+
+
+/* CADASTRO  */
+
+/* LOGIN  */
+
+.box{
+	width:600px;
+	height:300px;
+	background-color:#CCC;
+	color:#333;
+	margin:20px;
+	float:left;
+	padding:20px;
+	border-radius: 12px;
+	background-color: rgba(255, 255, 255, 0.418);
+	background-size:cover;
+}
+
+/* LOGIN  */
+
+/* PRODUTOS */
+
+.box2{
+	max-width: 1100px;
+	height: 500px;
+	background-color:#CCC;
+	color:#333;
+	margin:40px;
+	float:left;
+	padding:20px;
+	border-radius: 12px;
+	background-color: rgba(255, 255, 255, 0.418);
+	background-size:cover;
+}
+
+.container4{
+	float: none;
+	margin: auto 100px auto 100px;
+}
+
+.central{
+	width:250px;
+	margin:0 7px auto 7px;
+	height:460px;
+	float: left;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.418);
+}
+
+.carousel-item img{
+	width: 230px;
+	height: 230px;
+	border-radius: 20px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.boxProd{  
+	margin: 10px 10px;
+}
+
+.oferta{
+	margin-top: 5px;
+	float:none;    
+	text-align: center;
+}
+
+.tituloProd{
+	border-color: rgb(25, 52, 202);
+	border-style: solid;
+	border-radius: 12px;
+	font-size: 18px;
+    height: 60px;
+	transition-duration: 0.5s;
+	margin-bottom: 5px;
+}
+
+.tituloProd:hover{
+	border-color: rgba(173, 189, 33, 0.664);
+}
+
+.conteudo{
+	font-size: 12px;
+	height: 80px;
+}
+
+.estoque{
+	margin: auto;
+	border-style: dotted;
+	border-radius: 10px;
+	width: 50px;
+}
+
+.decisao1{
+    background-color: forestgreen;
+}
+
+.decisao2{
+    background-color: firebrick;
+}
+
+/* PRODUTOS */
+
+/* ALTERAR */
+
+.boxPerfil{
+	background-color:#CCC;
+	color:#333;
+	margin:20px;
+	padding:20px;
+	border-radius: 12px;
+	background-color: rgba(255, 255, 255, 0.418);
+	background-size:cover;
+	float:none;
+	margin:auto; 
+	height:auto;
+}
+
+.fotoPerfil{
+    margin: 20px 20px 20px 20px;
+    width: 120px;
+    height: 120px;
+    padding: 5px 5px;
+    float: left;
+	border-style:solid;
+	border-radius:10px;
+}
+
+.fotoPerfil img{
+	width: 105px;
+    height: 105px;
+	border-radius:10px;
+}
+
+
+.topoPerfil{
+    width: 100%;
+    height: 100%;
+}
+
+.nomePerfil strong{
+	margin:10px auto 50px;
+    padding: 70px 0 70px 70px;
+}
+
+.meioPerfil{
+	width:100%;
+	height:100%;
+	float:none;
+	padding: 10px;
+}
+
+.tabela{
+	margin: 10px auto 10px auto;
+	border-style:solid;
+	border-color:#666;
+}
+
+.tabelaItem{
+	padding:5px 10px 5px 10px;
+	text-align:center;
+	border-left:solid;
+	border-bottom:solid;
+}
+
+.cadastro a{
+	font-size: 16px;
+}
+
+.fotoAlterPerfil{
+    margin: 20px 20px 20px 20px;
+    width: 120px;
+    height: 120px;
+    padding: 5px 5px;
+    float: left;
+	border-style:solid;
+	border-radius:10px;
+}
+
+.fotoAlterPerfil img{
+	width: 105px;
+    height: 105px;
+	border-radius:10px;
+	transition-duration: 0.5s;
+	background-color: #2f7dd600;
+}
+
+.fotoAlterPerfil:hover{
+	background-color: #57575736;
+}
+/* ALTERAR */
